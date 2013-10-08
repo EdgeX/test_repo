@@ -1,0 +1,5 @@
+ #this file should go to ~/.screenrc
+ #hardstatus alwayslastline "%{b}[ %{B}%H %{b}][ %{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%?%= %{b}][%{B} %d/%m %{W}%C%a %{b}]" 
+ #hardstatus alwayslastline "%{.bW}%-w%{u}%{.bY}%+u%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a " 
+ #if you have hardstatus then Escreen doesn't work but now with this status line screen is same as escreen
+hardstatus alwayslastline "%{.wk}%-w%{.wk}%+u%n %t*%{-}%+w %=%{..K} %H %{..K} %m/%d %C%a "
